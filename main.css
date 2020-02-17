@@ -1,13 +1,14 @@
- body {
+ html {
+
       background-color: lightblue;
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Arial', sans-serif;
       font-size: 1.3em;
-      line-height: 2em;
+      line-height: 2;
     }
     h1 {
       color: navy;
       font-family: 'Open Sans', sans-serif;
-      line-height: 1.2em;
+      line-height: 1.2;
       font-size: 2em;
       margin-left:
   }
@@ -18,7 +19,12 @@
     font-size: 2em;
     margin-left:
   }
-
+  .cities {
+    background-color: white;
+    color: navy;
+    margin: 20px;
+    padding: 20px;
+  }
   @media (min-width: 600px) {
     body {
       font-size: 1em;
