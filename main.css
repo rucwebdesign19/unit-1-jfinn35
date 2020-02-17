@@ -1,46 +1,46 @@
-body {
-    background-color: lightblue;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3em;
-    line-height: 2em;
+ body {
+      background-color: lightblue;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.3em;
+      line-height: 2em;
+    }
+    h1 {
+      color: navy;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.2em;
+      font-size: 2em;
+      margin-left:
   }
-  h1 {
+  h2{
     color: navy;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.2em;
     font-size: 2em;
     margin-left:
-}
-h2{
-  color: navy;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.2em;
-  font-size: 2em;
-  margin-left:
-}
-
-@media (min-width: 600px) {
-  body {
-    font-size: 1em;
-    line-height: 1.2;
   }
-}
 
-@media (min-width: 900px) {
-  body {
-    font-size: 1.3em;
-    line-height: 1.5;
+  @media (min-width: 600px) {
+    body {
+      font-size: 1em;
+      line-height: 1.2;
+    }
   }
-}
 
-@media (max-width: 600px) {
-  style {
-    width: 75vw;
+  @media (min-width: 900px) {
+    body {
+      font-size: 1.3em;
+      line-height: 1.5;
+    }
   }
-}
 
-@media (max-width: 900px){
-  style {
-    width: 50vw;
+  @media (max-width: 600px) {
+    style {
+      width: 75vw;
+    }
   }
-}
+
+  @media (max-width: 900px){
+    style {
+      width: 50vw;
+    }
+  }
